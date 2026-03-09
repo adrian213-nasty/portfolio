@@ -1150,7 +1150,7 @@ Start FunFacts CSS
 
 .portfolio-overlay i:hover {
     background: #fff;
-    color: #08d665;
+    color: rgba(1, 213, 118, 0.05);
 }
 
 /* Responsive adjustments */
