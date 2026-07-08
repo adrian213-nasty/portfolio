@@ -781,20 +781,26 @@ a.back-to-top:hover, a.back-to-top:focus{
 .software-used-section .software-item .icon{
 	background: rgba(51, 98, 148, 0.15);
 	border-radius: 50%;
-	color: #336294;
+	width: 90px;
+	height: 90px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px;
+	margin: 0 auto;
+	transition: all 0.3s ease-in-out;
 }
 
-.software-used-section .software-item .icon i{
-	color: #336294;
-	line-height: 90px;
+.software-used-section .software-item .icon img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
 }
 
 .software-used-section .software-item:hover .icon{
 	background: #336294;
-}
-
-.software-used-section .software-item:hover .icon i{
-	color: #fff;
+	transform: translateY(-4px);
 }
 
 /* ==========================================================================
