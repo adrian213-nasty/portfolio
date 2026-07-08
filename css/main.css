@@ -798,6 +798,111 @@ a.back-to-top:hover, a.back-to-top:focus{
 }
 
 /* ==========================================================================
+05. Start Professional Experience Area
+========================================================================== */
+.professional-section .section-subtitle{
+	max-width: 700px;
+	margin: 0 auto 35px;
+	color: #d7d7d7;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.professional-timeline{
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.professional-timeline::before{
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: rgba(255,255,255,0.15);
+}
+
+.professional-item{
+	position: relative;
+	padding-left: 60px;
+	margin-bottom: 30px;
+}
+
+.professional-item::before{
+	content: "";
+	position: absolute;
+	left: 12px;
+	top: 20px;
+	width: 16px;
+	height: 16px;
+	background: #336294;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px rgba(51, 98, 148, 0.2);
+}
+
+.professional-card{
+	background: rgba(255,255,255,0.03);
+	border: 1px solid rgba(255,255,255,0.12);
+	border-radius: 12px;
+	padding: 25px 30px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.professional-card .role{
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 8px;
+}
+
+.professional-card .company{
+	color: #336294;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+
+.professional-card .dates{
+	display: inline-block;
+	margin-bottom: 12px;
+	color: #cfcfcf;
+	font-size: 14px;
+}
+
+.professional-card ul{
+	margin: 0;
+	padding-left: 18px;
+}
+
+.professional-card li{
+	color: #e8e8e8;
+	margin-bottom: 8px;
+	line-height: 1.7;
+}
+
+@media (max-width: 576px){
+	.professional-item{
+		padding-left: 45px;
+	}
+
+	.professional-timeline::before{
+		left: 12px;
+	}
+
+	.professional-item::before{
+		left: 4px;
+	}
+
+	.professional-card{
+		padding: 20px 18px;
+	}
+}
+
+/* ==========================================================================
 06. Start Portfolio Area
 ========================================================================== */
 .portfolio .mix{
