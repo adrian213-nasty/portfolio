@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(function () {
       currentIndex = (currentIndex + 1) % thumbs.length;
       showImage(currentIndex);
-    }, 4000);
+    }, 3000);
   });
 });
