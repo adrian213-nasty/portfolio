@@ -777,6 +777,28 @@ a.back-to-top:hover, a.back-to-top:focus{
 05. End Service Area
 ========================================================================== */
 
+.software-used-section .software-item{
+	min-height: 170px;
+}
+
+.software-used-section .software-item .icon{
+	background: rgba(51, 98, 148, 0.15);
+	border-radius: 50%;
+	color: #336294;
+}
+
+.software-used-section .software-item .icon i{
+	color: #336294;
+	line-height: 90px;
+}
+
+.software-used-section .software-item:hover .icon{
+	background: #336294;
+}
+
+.software-used-section .software-item:hover .icon i{
+	color: #fff;
+}
 
 /* ==========================================================================
 06. Start Portfolio Area
