@@ -456,6 +456,44 @@ button:focus{
 	margin-bottom: 10px;
 }
 
+.project-gallery {
+	margin-top: 18px;
+}
+
+.project-gallery-main-image {
+	width: 100%;
+	max-height: 460px;
+	object-fit: cover;
+	border-radius: 16px;
+	border: 1px solid rgba(255,255,255,0.1);
+	background: #1a1a1a;
+}
+
+.project-gallery-thumbs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-top: 16px;
+}
+
+.project-gallery-thumb {
+	width: 92px;
+	height: 68px;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+
+.project-gallery-thumb:hover,
+.project-gallery-thumb.active {
+	opacity: 1;
+	border-color: #336294;
+	transform: translateY(-2px);
+}
+
 .project-contact-form {
 	max-width: 800px;
 	margin: 0 auto;
