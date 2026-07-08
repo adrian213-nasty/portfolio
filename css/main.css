@@ -276,7 +276,7 @@ ul li, ol li{
 	padding-bottom: 36px;
 }
 .section-title{
-    color: #222;
+    color: #ffffff;
 	text-transform: uppercase;
     font-size: 40px;
     text-align: center;
@@ -525,6 +525,18 @@ button:focus{
 	justify-content: space-between;
 	align-items: center;
 	background: #101010;
+	position: relative;
+}
+
+.hobby-panel summary::after {
+	content: '\25be';
+	font-size: 18px;
+	color: #8ca8ff;
+	transition: transform 0.25s ease;
+}
+
+.hobby-panel[open] summary::after {
+	transform: rotate(-180deg);
 }
 
 .hobby-panel summary::-webkit-details-marker {
