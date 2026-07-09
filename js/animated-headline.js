@@ -1,18 +1,18 @@
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 2500,
+	var animationDelay = 1500,
 		//loading bar effect
-		barAnimationDelay = 3800,
+		barAnimationDelay = 2500,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
 		//letters effect
-		lettersDelay = 50,
+		lettersDelay = 30,
 		//type effect
-		typeLettersDelay = 150,
+		typeLettersDelay = 100,
 		selectionDuration = 500,
-		typeAnimationDelay = selectionDuration + 800,
+		typeAnimationDelay = selectionDuration + 600,
 		//clip effect 
-		revealDuration = 800,
-		revealAnimationDelay = 1500;
+		revealDuration = 600,
+		revealAnimationDelay = 1000;
 	
 	initHeadline();
 	
